@@ -1,0 +1,72 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображаемого) -->
+	<head> 
+		<!-- Заголовок страницы в браузере -->
+		<title>Familiarity with HTML tags. Part №2</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<form action="#" method="get">
+			<div>
+				<p>Name</p>
+				<input placeholder="Name" tabindex="1" type="text" name="username">
+			</div>
+			<div>
+				<p>Password</p>
+				<input placeholder="Your password" tabindex="2" type="password" name="userpass">
+			</div>
+			<div>
+				<p>Phone</p>
+				<input placeholder="Your phone number" tabindex="3" type="tel" name="userphone">
+			</div>
+			<div>
+				<p>Sex</p>
+				<div>
+					<input checked type="radio" name="gender" value="male">Male
+				</div>
+				<div>
+					<input type="radio" name="gender" value="female">Female
+				</div>
+				<div>
+					<p>Property</p>
+					<div>
+						<input checked type="checkbox" name="bike" value="yes">Bike
+					</div>
+					<div>
+						<input type="checkbox" name="car" value="yes">Car
+					</div>
+					<div>
+						<input disabled type="checkbox" name="apartment" value="yes">Apartment 
+					</div>
+					<div>
+						<p>Additional information</p>
+							<textarea name="text" cols="30" rows="10"></textarea>
+					</div>			
+						<div>
+							<p>Attach a photo</p>
+							<input type="file" name="photo">
+						</div>
+						<div>
+							<p>Favorite color</p>
+							<select name="color">
+							<option value="red">Red</option>
+							<option value="yellow">Yellow</option>
+							<option selected value="blue">Blue</option>
+						</select>
+						</div>
+						<div>
+							<p>Actions</p>
+							<button type="submit">Send</button>
+							<button type="submit">Clear</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>	
