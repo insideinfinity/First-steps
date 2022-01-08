@@ -1,0 +1,19 @@
+
+span{
+	font-size: 30px;
+	color: purple;
+}
+.since{
+	font-size: 20px;
+	color: green;
+}
+.sleep{
+	color: blue;
+	font-size: 15px;
+}
+span.since{
+	font-size: 33px;
+}
+div.gogo{
+	color: brown;
+}
