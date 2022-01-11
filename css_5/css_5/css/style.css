@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline:  none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input:-ms-clear{display: none;}
+button{cursor: pointer;}
+button: :-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background-color: #bad0d0;
+}
+.content {
+	margin: 0px 311px 0 311px;
+}
+.header {
+	font-family: 'Bebas Neue', cursive;
+	height: 145px;
+	background-color:#8da6a7;
+	border-radius: 10px;
+}
+.data{
+	text-transform: lowercase;
+	font-size: 10px;
+	text-align: right;
+	font-family: 'Open Sans';
+	line-height: 1.2;
+	letter-spacing: 0.06em;
+	color: #fff;
+	padding: 0 40px 65px 0;
+}
+.logo {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #fff;
+	padding: 50px 0 0 60px;
+}
+.content-top {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 120px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 2px rgba(25,20,15,0.25);
+	color: #ffffff;
+	background-color: #7afec3;
+	border-radius: 10px;
+	text-align: center;
+	height: 350px;
+	padding: 40px 0 0 0;
+	margin: 500px 0 0 0;
+}
+.strategy {
+	opacity: 0.7;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #7afec3;
+	margin: 70px 0 0 0;
+}
+.our1{
+	padding: 0 0 0 50px;
+}
+.our2{
+	padding: 0 0 0 350px;
+}
+.text {
+
+}
+.text li {
+	font-family: 'Open Sans';
+	margin: 0 0 0 75px;
+	font-size: 20px;
+	line-height: 40px;
+	color: #90a3a5
+}
+.text li:nth-child(1){
+	
+}
+.text li:nth-child(2){
+
+}
+.text li:nth-child(3){
+
+}
+.text li:nth-child(4){
+
+}
+.unorder-text{
+
+}
